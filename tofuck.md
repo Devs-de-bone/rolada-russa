@@ -17,4 +17,8 @@
 
 -   Simula o som de beep de quando o pc ta morrendo
 
+-   Pega o PID de um processo aleatorio e mata ele (nao te avisa)
 
+- apaga o que ta escrevendo
+
+- abrir o famoso rick roll no browser

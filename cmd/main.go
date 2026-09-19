@@ -88,6 +88,7 @@ func main() {
 	cards := []*ItemCard{
 		&ItemCard{ Wildcard: wildcards.MouseFuckerCard },
 		&ItemCard{ Wildcard: wildcards.MoveFuckerCard },
+		&ItemCard{ Wildcard: wildcards.RickRollFucker },
 	}
 	session := Game{
 		cards,
