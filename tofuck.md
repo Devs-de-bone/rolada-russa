@@ -1,0 +1,20 @@
+## Fuckmap
+
+### Cards 
+
+-   Carta que esconde um arquivo no pc e se vc nao achar ele desliga o pc
+
+-   Binda a altura do volume com o zoom da pagina
+        Quanto maior o volume menor o zoom
+
+-   Binda a altura do volume com o scaling factor da fonte do pc
+
+-   Troca o layout do teclado 
+
+-   Troca a lingua do teclado
+
+-   Escreve textos aleatoriamente
+
+-   Simula o som de beep de quando o pc ta morrendo
+
+
