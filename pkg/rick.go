@@ -3,14 +3,31 @@ package wildcards
 import (
 	"context"
 	"fmt"
+	"math/rand"
 	"os/exec"
+	"time"
 )
 
 var RickRollFucker = WildCard{
 	Level: LEVEL_EASY,
-	Description: "Shows GTA VII (7, stupid) trailer.",
+	Description: "Shows GTA VII (7) trailer at random moments.",
 	execute: func(ctx context.Context) error {
-		OpenLink()
+		go func() {
+			OpenLink()
+
+			for true {
+				randTime := rand.Intn(30)
+
+				if randTime < 10 {
+					continue
+				}
+
+				time.Sleep(time.Duration(randTime) * time.Second)
+				fmt.Printf("%d seconds has passed...", randTime)
+				fmt.Printf("Let's see the trailer again!!")
+				OpenLink()
+			}
+		}()
 
 		return nil
 	},
