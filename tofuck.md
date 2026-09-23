@@ -16,6 +16,7 @@
 -   Escreve textos aleatoriamente
 
 -   Simula o som de beep de quando o pc ta morrendo
+        - ideia melhor: toca o audio da risada do kiko de 1 segundo kkk.
 
 -   Pega o PID de um processo aleatorio e mata ele (nao te avisa)
 
