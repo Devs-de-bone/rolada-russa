@@ -39,14 +39,3 @@ func (w *WildCard) Apply(ctx context.Context) error {
 
 	return nil
 }
-
-func GetRandomByLevel(level string) WildCard {
-	card := WildCard{
-		Level: "easy",
-		Description: "Simply prints Hello World.",
-		execute: func(ctx context.Context) error {return nil},
-		
-	}
-
-	return card
-}
